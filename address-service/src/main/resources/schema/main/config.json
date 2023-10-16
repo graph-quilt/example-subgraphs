@@ -1,0 +1,11 @@
+{
+  "namespace":"ADDRESS_SVC",
+  "appId":"address.service",
+  "type":"graphql-sdl",
+  "environments": {
+    "DEV":{
+      "endpoint":"http://localhost:9092/graphql",
+      "timeout": 2000
+    }
+  }
+}
