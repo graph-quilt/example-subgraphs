@@ -1,6 +1,6 @@
 # example-subgraphs
 
-This repository contains example graphql services.  
+This repository contains example graphql services that can be registered to graphql-gateway-java.  To use the examples:
 
 1. Clone this repo
 2. See README.md for each sub-project.
