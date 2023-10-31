@@ -64,3 +64,15 @@ query {
   }
 }
 ```
+
+## Running with graphql-authorization-java
+To run the service with graphql-authorization-java, "authz.instrumentation.enabled" in the application properties should be set to true.  
+
+This will enable the authorization instrumentation as a configuration bean in the service.
+
+Scopes are determined from the header attribute "x-userid" as shown below:
+
+```
+{
+  "x-userId": "userId3"
+}
