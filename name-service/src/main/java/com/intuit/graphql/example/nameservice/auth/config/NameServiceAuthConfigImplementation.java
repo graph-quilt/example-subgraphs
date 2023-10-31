@@ -52,6 +52,7 @@ public class NameServiceAuthConfigImplementation {
     @Bean
     public ScopeProvider getScopeProvider() {
         return new ScopeProvider() {
+            // Using headers to determine the scope. The expected header value is x-userid
             @Override
             public Set<String> getScopes(Object o) {
                 DgsContext dgsContext = (DgsContext) o;
