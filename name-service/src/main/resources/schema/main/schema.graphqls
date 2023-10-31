@@ -5,4 +5,7 @@ type Query {
 type Person {
     firstName : String
     lastName: String
+    age: Int
+    isMarried: Boolean
+    isAlive: Boolean
 }

@@ -1,0 +1,9 @@
+query {
+    person{
+        firstName
+        lastName
+        age
+        isMarried
+        isAlive
+    }
+}

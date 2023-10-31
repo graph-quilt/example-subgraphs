@@ -1,0 +1,3 @@
+id: userId1
+description: User who could access only public information
+type: OFFLINE
