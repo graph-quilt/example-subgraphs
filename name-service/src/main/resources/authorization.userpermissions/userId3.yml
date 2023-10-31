@@ -1,0 +1,3 @@
+id: userId3
+description: User who could access public information and just isAlive (So they could look into the analytics).
+type: OFFLINE
